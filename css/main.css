@@ -1,0 +1,5 @@
+.underscored{
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-thickness: 0.6rem;
+}
