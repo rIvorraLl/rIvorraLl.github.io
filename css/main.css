@@ -1,5 +1,23 @@
-.underscored{
+footer, section {
+    background-color: whitesmoke;
+    height: 50vw;
+    padding: 10px;
+}
+
+.underscored {
     text-decoration: underline;
     text-decoration-color: aqua;
     text-decoration-thickness: 0.6rem;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+img:hover {
+    width: 150px;
+    height: 150px;
+    transform: rotate(360deg);
 }
