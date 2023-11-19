@@ -19,7 +19,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <button
           class="navbar-toggler"
           type="button"
@@ -34,10 +34,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#about"
+                >About</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#used">Things I use</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Credits</a>
             </li>
           </ul>
           <a class="navbar-brand d-flex">Navbar</a>
@@ -46,7 +51,7 @@
     </nav>
     <header></header>
     <main>
-      <section class="mt-5">
+      <section class="mt-5" id="about">
         <p class="mt-5 underscored text-center h3">About</p>
         <div class="mt-5 container text-start">
           <div class="row">
@@ -72,7 +77,7 @@
           </div>
         </div>
       </section>
-      <section class="mt-3">
+      <section class="mt-3" id="used">
         <p class="mt-5 underscored text-center h3">Things I use</p>
         <div class="mt-5 container">
           <div class="row">
@@ -164,7 +169,29 @@
         </div>
       </section>
     </main>
-    <footer class="mt-5 mb-5"></footer>
+    <footer class="mt-5" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 gx-5 mx-auto">
+            <h3 class="p-5">Used in this</h3>
+            <p>HTML, CSS, Bootstrap.</p>
+            <p>Icons by <a href="https://devicon.dev/" target="_blank">Devicon</a></p>
+            <p>Hosted courtesy of <a href="https://pages.github.com/">GitHub Pages</a></p>
+            <p>Developed on Ubuntu Linux, using VS Codium and Firefox</p>
+          </div>
+          <div class="col-lg-3 gx-5 mx-auto">
+            <p>Test one two three Test one two three</p>
+            <p>Test one two three Test one two three</p>
+            <p>Test one two three Test one two three</p>
+          </div>
+          <div class="col-lg-3 gx-5 mx-auto">
+            <p>Test one two three Test one two three</p>
+            <p>Test one two three Test one two three</p>
+            <p>Test one two three Test one two three</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
 
