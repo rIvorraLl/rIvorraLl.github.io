@@ -10,21 +10,31 @@
     }
 }
 
+.img_icons {
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 2s, transform 1s;
+}
+
+.img_icons:hover {
+    width: 150px;
+    height: 150px;
+    /* transform: rotate(360deg); */
+    transform: scale(1.5, 1.5);
+}
+
+.img_picture {
+    width: 400px;
+    height: 340px;
+    border-radius: 10%;
+}
+
 .underscored {
     text-decoration: underline;
     text-decoration-color: aqua;
     text-decoration-thickness: 0.6rem;
 }
 
-img {
-    width: 100px;
-    height: 100px;
-    transition: width 2s, height 2s, transform 1s;
-}
-
-img:hover {
-    width: 150px;
-    height: 150px;
-    /* transform: rotate(360deg); */
-    transform: scale(1.5, 1.5);
+.alt_bg {
+    background-color: #e9ecef;
 }
