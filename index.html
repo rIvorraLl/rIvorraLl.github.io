@@ -6,15 +6,16 @@
     <title>Rafael Ivorra Personal Page</title>
     <link
       rel="stylesheet"
-      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="../css/main.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
     />
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -49,7 +50,7 @@
     </nav>
     <header></header>
     <main>
-      <section class="mt-5" id="about">
+      <section class="main_section pt-5 pb-3" id="about">
         <p class="mt-5 underscored text-center h3">About</p>
         <div class="mt-5 container text-start">
           <div class="row">
@@ -85,7 +86,23 @@
           </div>
         </div>
       </section>
-      <section class="mt-3 alt_bg" id="used">
+      <section class="main_section pt-3 pb-3 alt_bg">
+        <p class="mt-5 underscored text-center h3">Projects</p>
+        <div class="mt-5 container text-start">
+          <div class="column">
+            <div>
+              <p><b>Cthulhu web</b></p>
+              <a href="pages/cthulhu.html"
+                ><img
+                  class="img_projects_thumb"
+                  src="assets/pictures/cthulhuWeb01.png"
+                  alt="Cthulhu web landing page"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main_section mt-3" id="used">
         <p class="mt-5 underscored text-center h3">Things I use</p>
         <div class="mt-5 container">
           <div class="row">
@@ -232,6 +249,11 @@
                 href="https://www.linkedin.com/in/rafael-ivorra-llodrá-8a39a3281"
                 target="_blank"
                 >LinkedIn</a
+              >
+            </p>
+            <p>
+              <a href="https://hachyderm.io/@r_ivorra" target="_blank"
+                >Mastodon profile</a
               >
             </p>
           </div>

@@ -1,13 +1,14 @@
 @media screen and (min-width: 992px) {
-    section {
+    .main_section {
         height: 50vw;
         padding: 10px;
     }
-    footer {
-        background-color: black;
-        color: antiquewhite;
-        padding: 10px;
-    }
+}
+
+footer {
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px;
 }
 
 .img_icons {
@@ -27,6 +28,15 @@
     width: 400px;
     height: 340px;
     border-radius: 10%;
+}
+
+.img_projects {
+    width: 100%;
+}
+
+.img_projects_thumb {
+    width: 25%;
+    border-radius: 5%;
 }
 
 .underscored {
