@@ -50,8 +50,70 @@
             <p>A web project built from scratch for a fake publishing house.</p>
             <p>
               Built using <code>Vue</code> and <code>Bootstrap</code>, with a
-              fake API served by <code>json-server</code>. It works as a SPA (Single Page Application).
+              fake API served by <code>json-server</code>. It works as a SPA
+              (Single Page Application).
             </p>
+            <p>
+              The project code can be found
+              <a
+                href="https://github.com/rIvorraLl/diw_proyecto_2t"
+                target="_blank"
+              >
+                in my GitHub repository.</a
+              >
+            </p>
+            <p>To test the code (in Linux/UNIX-like shell):</p>
+            <ul>
+              <li>
+                You'll need a web client (browser), <code>npm</code> and
+                <a
+                  href="https://github.com/typicode/json-server"
+                  target="_blank"
+                  ><code>json-server</code></a
+                >
+                installed.
+              </li>
+              <li>
+                Open a terminal emulator. Clone the repository in your local
+                machine:
+                <code>
+                  git clone https://github.com/rIvorraLl/diw_proyecto_2t.git
+                </code>
+              </li>
+              <li>
+                Navigate inside the cloned directory:
+                <code>cd diw_proyecto_2t/</code>
+              </li>
+              <li>Install dependencies: <code>npm install</code></li>
+              <li>
+                <p>
+                  Run <code>json-server</code> with the provided
+                  <code>json</code> file:
+                  <code>json-server --watch data_db.json</code>
+                </p>
+                <p>
+                  It should print the URLS for the endpoints, which you can
+                  check introducing the URL in your browser.
+                </p>
+              </li>
+              <li>
+                Run <code>npm run dev</code>. You may need to open a new
+                terminal window for this, as <code>json-server</code> will have
+                the former one busy. Now if you enter the URL in your browser
+                (most likely <code>http://localhost:5173/</code>) you can now
+                navigate the web.
+              </li>
+              <li>
+                You'll find a link labeled "Identificación" at the footer. You
+                can login with the credentials "rafael" and "patata123". Change
+                these credentials modifying the provided
+                <code>data_db.json</code> file if you wish.
+              </li>
+              <li>
+                Once logged in, you can add, delete and modify data for the
+                books. The changes will be reflected on the fly.
+              </li>
+            </ul>
           </div>
           <div class="pt-2">Landing page</div>
           <div class="row">
@@ -70,7 +132,10 @@
                 alt="Books carousel and footer"
               />
             </div>
-            <div class="pt-2">Page listing all the books, automatically fetched from the database and updated on changes</div>
+            <div class="pt-2">
+              Page listing all the books, automatically fetched from the
+              database and updated on changes
+            </div>
             <div>
               <img
                 class="img_projects p-3"
@@ -118,7 +183,10 @@
                 alt="Login page"
               />
             </div>
-            <div class="pt-2">Logged in landing page. There are links to create, update and delete books</div>
+            <div class="pt-2">
+              Logged in landing page. There are links to create, update and
+              delete books
+            </div>
             <div>
               <img
                 class="img_projects p-3"
@@ -134,7 +202,9 @@
                 alt="Update"
               />
             </div>
-            <div class="pt-2">Page after update prize field in a book with success message</div>
+            <div class="pt-2">
+              Page after update prize field in a book with success message
+            </div>
             <div>
               <img
                 class="img_projects p-3"
