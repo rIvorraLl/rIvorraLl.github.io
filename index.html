@@ -13,14 +13,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
     />
-
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="./js/main.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
         <button
           class="navbar-toggler"
           type="button"
@@ -43,8 +39,25 @@
             <li class="nav-item">
               <a class="nav-link" href="#credits">Credits</a>
             </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Projects
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/pages/cthulhu.html"
+                    >Cthulhu web</a
+                  >
+                </li>
+              </ul>
+            </li>
           </ul>
-          <!-- <a class="navbar-brand d-flex">Navbar</a> -->
         </div>
       </div>
     </nav>
@@ -265,5 +278,10 @@
         </div>
       </div>
     </footer>
+    <script
+      src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
